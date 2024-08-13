@@ -9,11 +9,11 @@ Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos 
 
 ## Configuración
 
-1. **Descargar el archivo CSV**
+1. **Descargar el archivo CSV y el ipynb**
 
    Debes descargar el archivo `Goodreads_books_with_genres.csv`, que se encuentra adjunto en este repositorio.
 
-2. **Cambiar la dirección de lectura del archivo CSV**
+2. **Cambiar la dirección de lectura del archivo CSV en el ipynb**
 
    En el código del recomendador, localiza la línea donde se carga el archivo CSV y modifica la ruta de acceso para que apunte al archivo descargado. Asegúrate de que el nombre del archivo y la extensión sean correctos. Ejemplo:
 
@@ -25,6 +25,7 @@ Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos 
    df = pd.read_csv("ruta/nueva/Goodreads_books_with_genres.csv")
 
 3. **Uso**
+   
    Al final del notebook, aparecerán 3 pestañas entre las cuales elegir para decidir a partir de que valor quieres recibir la recomendación. Estas opciones serán :
 
    -Autor: Simplemente tienes que poner el nombre del Autor de un libro y aparecerán en pantalla sus libros y otros libros que tengan una temática similar. Como ejemplo puedes usar "george r.r. martin" o "charles dickens". El buscador funciona
@@ -37,6 +38,6 @@ Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos 
    -Libro similar: Al igual que en el caso de Autor, solo es necesario escribir el nombre de un libro y el recomendador dara libros de temática similar. Puede probar con libros como "1984" y "Coralin" siendo realmente el libro de "Coraline" pero
    mal escrito.
 
-4. **Final**
+5. **Final**
 
    La decisiones técnicas tomadas vienen explicadas en el notebook asi como la preparación de los datos. Al usar el recomendador aparecerá por pantalla una lista de 20 libros con su Título, Género, Autor y Score.
