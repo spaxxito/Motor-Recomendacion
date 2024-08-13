@@ -39,4 +39,4 @@ Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos 
 
 4. **Final**
 
-   La decisiones técnicas tomadas vienen explicadas en el notebook asi como la preparación de los datos.
+   La decisiones técnicas tomadas vienen explicadas en el notebook asi como la preparación de los datos. Al usar el recomendador aparecerá por pantalla una lista de 20 libros con su Título, Género, Autor y Score.
