@@ -1,6 +1,14 @@
 # Recomendador de Libros
 
-Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos de libros y sus géneros. Para poder utilizar el recomendador, es necesario seguir los siguientes pasos.
+Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos de libros y sus géneros. 
+
+El modelo se basa en la técnica de vectorización de palabras utilizando CountVectorizer, una herramienta poderosa que convierte el texto en una matriz de características basada en la frecuencia de palabras.
+
+El sistema analiza características textuales de los contenidos disponibles y, mediante la similitud de coseno, identifica aquellos elementos que son más similares entre sí. Esto permite recomendar contenidos relacionados a partir de un ítem seleccionado por el usuario.
+
+Este enfoque de recomendación basado en contenido es útil en diversas aplicaciones, como plataformas de libros, películas, música o cualquier otra área donde se desee ofrecer al usuario opciones que se alineen con sus intereses específicos, basándose en los atributos de los contenidos que ha disfrutado previamente.
+
+Para poder utilizar el recomendador, es necesario seguir los siguientes pasos:
 
 ## Requisitos
 
