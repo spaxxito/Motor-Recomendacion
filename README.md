@@ -31,8 +31,8 @@ Este proyecto es un recomendador de libros que utiliza un archivo CSV con datos 
    -Autor: Simplemente tienes que poner el nombre del Autor de un libro y aparecerán en pantalla sus libros y otros libros que tengan una temática similar. Como ejemplo puedes usar "george r.r. martin" o "charles dickens". El buscador funciona
    también con nombres incompletos, como puede ser "edgar all" en lugar de Edgar Allan Poe.
 
-   -Género: Puesto que el propio recomendador está basado en el género de las obras ya que el csv con el que cuento no dispone de sinopsis, al buscar por género se realizará mas bien una función de filtro. Algunos ejemplos de uso serían:
-   "fantasy". Tambien se pueden buscar mas géneros de una sola vez mediante "Horror;Fantasy;Fiction". Al utilizar el recomendador por "Género" la lista estará ordenada por la métrica calculada "Score", si se desea ordenar por popularidad,
+   -Género: Puesto que el propio recomendador está basado en el género de las obras ya que el csv con el que cuento no dispone de sinopsis, al buscar por género se realizará más bien una función de filtro. Algunos ejemplos de uso serían:
+   "fantasy". Tambien se pueden buscar más géneros de una sola vez mediante "Horror;Fantasy;Fiction". Al utilizar el recomendador por "Género" la lista estará ordenada por la métrica calculada "Score", si se desea ordenar por popularidad,
    aparece un boton debajo.
 
    -Libro similar: Al igual que en el caso de Autor, solo es necesario escribir el nombre de un libro y el recomendador dara libros de temática similar. Puede probar con libros como "1984" y "Coralin" siendo realmente el libro de "Coraline" pero
